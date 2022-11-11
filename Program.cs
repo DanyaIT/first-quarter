@@ -11,3 +11,15 @@ string [] FillArray(string [] arr1, string [] arr2){
     }
     return arr2;
 }
+
+void PrintNewArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
+    Console.WriteLine();
+}
+
+FillArray(arr1, arr2);
+PrintNewArray(arr2);
